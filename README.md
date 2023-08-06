@@ -1,7 +1,7 @@
 PECL SSH2 extension compiled for Windows
 =================================
 
-August 1, 2023
+August 6, 2023
 
 This repository contains `php_ssh2` extension compiled for Windows to support XAMPP.
 
@@ -52,3 +52,5 @@ Linked with [LIBSSH2](https://www.libssh2.org/) version 1.10.0
 Notes on compiling - commands used
 -------------------
 `configure --disable-all --enable-cli --with-ssh2=shared --enable-zlib --with-openssl`
+
+To see how I build PHP see this [page](BUILD.md).
