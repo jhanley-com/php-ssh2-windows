@@ -1,7 +1,7 @@
 PECL SSH2 extension compiled for Windows
 =================================
 
-August 6, 2023
+Last Update: August 8, 2023
 
 This repository contains `php_ssh2` extension compiled for Windows to support XAMPP.
 
@@ -15,11 +15,15 @@ I built this release to support Windows [XAMPP](https://www.apachefriends.org/do
 
 I only built the x64 thread-safe version as that what XAMPP requires. If someone needs a different build for Windows, let me know.
 
+I documented how to build [PHP 8.3](BUILD-PHP-8.3beta2.md) and [SSH2 1.3](BUILD-SSH2.md) for Windows.
+
+Soon I will release a document on how to run the tests included in the SSH2 source code.
+
 PHP 8.2
 --------------------
 July 26, 2023
 
-Based on pecl/ssh2 the source code version 1.4 releasd on 2023-04-20 from [pecl.php.net](https://pecl.php.net/package/ssh2). A copy of the source is included in this repository [ssh2-1.4.tgz](PHP_8.2/src).
+Based on pecl/ssh2 the source code version 1.4 released on 2023-04-20 from [pecl.php.net](https://pecl.php.net/package/ssh2). A copy of the source is included in this repository [ssh2-1.4.tgz](PHP_8.2/src).
 
 #### Compiler version: VS16 - Visual Studio 2019 (16.11.26)
 
@@ -36,7 +40,7 @@ PHP 8.3 Beta 1
 --------------------
 August 1, 2023
 
-Based on pecl/ssh2 the source code version 1.4 releasd on 2023-04-20 from [pecl.php.net](https://pecl.php.net/package/ssh2). A copy of the source is included in this repository [ssh2-1.4.tgz](PHP_8.3/src).
+Based on pecl/ssh2 the source code version 1.4 released on 2023-04-20 from [pecl.php.net](https://pecl.php.net/package/ssh2). A copy of the source is included in this repository [ssh2-1.4.tgz](PHP_8.3/src).
 
 #### Compiler version: VS16 - Visual Studio 2019 (16.11.28)
 
