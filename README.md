@@ -15,9 +15,14 @@ I built this release to support Windows [XAMPP](https://www.apachefriends.org/do
 
 I only built the x64 thread-safe version as that what XAMPP requires. If someone needs a different build for Windows, let me know.
 
-I documented how to build [PHP 8.3](BUILD-PHP-8.3beta2.md) and [SSH2 1.3](BUILD-SSH2.md) for Windows.
+I documented how to build [PHP 8.3](BUILD-PHP-8.3beta2.md) and [SSH2 1.4](BUILD-SSH2.md) for Windows.
 
 Soon I will release a document on how to run the tests included in the SSH2 source code.
+
+SSH2 1.4
+--------------------
+Repository is located [here](https://github.com/php/pecl-networking-ssh2).
+Documentation is located [here](https://www.php.net/ssh2).
 
 PHP 8.2
 --------------------
